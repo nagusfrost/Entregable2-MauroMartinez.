@@ -1,0 +1,84 @@
+*{
+    font-family: "Poppins", sans-serif;
+    padding-top: 0;
+    margin: 0;
+    list-style: none;
+}
+#header{
+    background-image: url(../assets/img/ford-mustang-shelby-cobra-gt-500.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 90vh;
+}
+.mainIndex{
+    padding-top: 2rem;
+}
+.footerIndex{
+    background-color: rgb(1, 1, 20);
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+.navbar{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.966);
+    padding: 0;
+}
+ul{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 0.6rem;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+}
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: flex;
+}
+h1{
+    color: rgb(255, 255, 255);
+    display: flex;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    margin-bottom: 0.1rem;
+}
+#navbar {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+.contenedorNav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.descripcion{
+    color: white;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 2rem;
+}
+.cardCars {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.marginButtom{
+    margin-top: 1rem;
+}
+.ordenFooter{
+    color: rgb(255, 255, 255);
+    padding: 0;
+    margin: 0;
+}
